@@ -1,0 +1,54 @@
+/* Asegúrate de que los estilos se apliquen solo dentro del formulario */
+#formulario {
+    font-family: Arial, sans-serif;
+    background-color: #f4f9fc;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#formulario h2 {
+    color: #2d89ef;
+    text-align: center;
+}
+
+#formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#formulario label {
+    font-weight: bold;
+    color: #333;
+}
+
+#formulario input,
+#formulario textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#formulario input:focus,
+#formulario textarea:focus {
+    outline: none;
+    border-color: #2d89ef;
+}
+
+#formulario button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #2d89ef;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#formulario button:hover {
+    background-color: #1e3c72;
+}
